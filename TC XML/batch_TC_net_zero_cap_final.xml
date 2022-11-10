@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="Scenario Policy">
+	<FileSet name="AdvTC_Homo">
+	<Value name="bld">../TechCap_Final/carbon_cap_net_zero_2050.xml</Value>
+	<Value name="resource_extraction">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+	<Value name="bld">../TechCap_Final/AdvTC_Homo.xml</Value>
+	</FileSet>	
+	<FileSet name="Adv_Het">
+	<Value name="bld">../TechCap_Final/carbon_cap_net_zero_2050.xml</Value>
+	<Value name="resource_extraction">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+	<Value name="bld">../TechCap_Final/AdvTC_Het.xml</Value>
+	</FileSet>
+	<FileSet name="LowTC_Homo">
+	<Value name="bld">../TechCap_Final/carbon_cap_net_zero_2050.xml</Value>
+	<Value name="resource_extraction">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+	<Value name="bld">../TechCap_Final/LowTC_Homo.xml</Value>
+	</FileSet>
+	<FileSet name="LowTC_Het">
+	<Value name="bld">../TechCap_Final/carbon_cap_net_zero_2050.xml</Value>
+	<Value name="resource_extraction">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+	<Value name="bld">../TechCap_Final/LowTC_Het.xml</Value>
+	</FileSet>
+	</ComponentSet>	
+</BatchRunner>
+
+

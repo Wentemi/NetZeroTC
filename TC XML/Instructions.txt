@@ -1,0 +1,3 @@
+After downloading the GCAMv5.4
+Copy and paste the configure.xml file into the exe folder. 
+To replicate the study double click on the run-gcam file in the exe folder just run
